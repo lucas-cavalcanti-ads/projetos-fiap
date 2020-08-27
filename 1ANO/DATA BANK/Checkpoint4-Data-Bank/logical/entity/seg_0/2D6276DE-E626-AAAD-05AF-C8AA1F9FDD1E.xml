@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D6276DE-E626-AAAD-05AF-C8AA1F9FDD1E" name="T_SK_TIPO_LOGRADOURO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 20:03:31 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_logradouro" id="51FE6940-2E53-8B49-3D3E-C2CADD819B14">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 20:04:08 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipo_logradouro" id="A6EAEE62-9435-41D0-3EF8-3543D064DAD2">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 20:04:54 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58400CC4-F3B8-330A-03D5-B9A44229EDA7" name="PK_SK_TIPO_LOGRADOURO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 20:04:43 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>51FE6940-2E53-8B49-3D3E-C2CADD819B14</newElementsIDs>
+<usedAttributes>
+<attributeRef>51FE6940-2E53-8B49-3D3E-C2CADD819B14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

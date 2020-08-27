@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="203D75FE-8E4D-7545-AEF9-573537668A95" name="T_SK_TELEFONE">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>3D62B796-4CF0-1C9A-CFE0-9DE938ACA932</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_ddi" id="5BCBC364-7D21-261E-1124-396EB0E8BCED">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>E3F6FA80-F251-346B-557E-7B7BCBD2EB8E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddd" id="639C2953-C439-8FCD-EA60-8613138D80A4">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>BABD8E01-29E0-1178-355E-7101E980A28E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="B5E5C8C9-355F-CB14-F2E8-5DC6AB5D3549">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>8B990676-452A-C58F-0597-7B8D1148181A</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15F6155F-833E-5247-2E7A-1788D025B732" name="PK_SK_TELEFONE">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>CCEAF847-7C80-7F65-FE2B-68DDECCF2DB9</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BCBC364-7D21-261E-1124-396EB0E8BCED"/>
+<colUsage columnID="B5E5C8C9-355F-CB14-F2E8-5DC6AB5D3549"/>
+<colUsage columnID="639C2953-C439-8FCD-EA60-8613138D80A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="084807DD-0B0C-A6D1-3D43-6357B7ADD48B" name="T_SK_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>CFD707EE-53A6-9B39-D5CA-D09C905ED431</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_colaborador" id="D58E4F5E-1E5B-A40F-43EE-7EBD453500DE">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>B1BA9E48-7B1C-3585-3336-048A1837CDF2</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_departamento" id="3BBFAA78-69A7-8856-3AC3-AF4A935F3B44">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>42CBC271-FC1A-F581-64C2-66BCD87849DB</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="320A7BD2-E753-0539-6862-503AD7A835EA" referredColumn="09FA7CCB-1E45-2040-6394-3AD137D43046"/>
+</associations>
+</Column>
+<Column name="dt_nascimento" id="60F9991D-E628-3286-DA4C-F2707209849C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>F39D24F6-71C2-B6D9-A147-C31855E13105</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado_civil" id="04C0B65E-33EE-BA13-2CD5-9051FA12023E">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>AD8346CC-1919-99B1-5C3C-63916D5427A3</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome" id="0C3996FC-E974-50F7-B4A7-F0DE46524FAF">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>F7700DDC-CE1F-4093-6CA6-04EA918B1E95</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C976EE35-B52A-41F2-153A-0EDE56B757C7" name="PK_SK_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>33AF223C-D63D-AB62-CCB5-ACF05B6D1830</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D58E4F5E-1E5B-A40F-43EE-7EBD453500DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D7BD8B4-48AE-915E-B214-8CB882765BC9" name="RELACAO_DEPARTAMENTO_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>3055A09C-9DF4-CEB8-C6D1-63DD355A2D94</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BBFAA78-69A7-8856-3AC3-AF4A935F3B44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SK_COLABORADOR_DS_ESTADO_CIVIL" directorySegmentName="seg_0" id="3C1E763D-86C2-194A-D8BD-6555B5B49A73">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:52:31 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<rule><![CDATA[DS_ESTADO CIVIL IN (`SOLTEIRO`, `CASADO`, `DIVORCIADO`)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

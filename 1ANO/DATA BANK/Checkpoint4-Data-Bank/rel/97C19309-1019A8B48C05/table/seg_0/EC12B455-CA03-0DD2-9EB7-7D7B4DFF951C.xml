@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC12B455-CA03-0DD2-9EB7-7D7B4DFF951C" name="T_SK_DEPARTAMENTO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>A8C6FD6D-CFB2-34E5-29DF-3F0107F02A60</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_departamento" id="09FA7CCB-1E45-2040-6394-3AD137D43046">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>119BA99E-0545-5BCE-FAF2-36702DFFF2C2</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome" id="29E54AE0-D52C-F67A-B9EA-525BC222669C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>E3D0EAB0-BE65-457A-94B4-FBA63D27CAFC</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A28F7085-C39F-B76F-7E52-75260F0FD11A" name="PK_SK_DEPARTAMENTO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>9CCB81E3-9460-4079-D546-0EF76CB76B19</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09FA7CCB-1E45-2040-6394-3AD137D43046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

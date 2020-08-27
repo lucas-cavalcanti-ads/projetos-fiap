@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAEFADF8-E898-A4FF-ACD5-01F1A3F40DA0" name="T_WEDO_ENDERECO_CORREIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>4379201F-63BA-DACB-6005-C34E48D76CB5</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_logradouro" id="1ABE06B0-72BA-25CC-0739-282A703DAE5C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>EC0125D9-9EBA-AA18-BAD5-6EE1E48BE9F4</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="C1C6F58F-0C2C-DC14-18E9-5788D5EC30EF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>CA7EBA9A-A7E7-2559-AC90-76AEB61DB8D0</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="3386528D-F0A9-8B87-63F2-27D76D9EB4EA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>867D8687-C833-D5DB-98F1-7AB474813775</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="6B52ED2F-4227-3CE8-2B5F-86F312508DBD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>CCD51047-EEAA-CB42-CB78-79B36551C97D</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="B739D7D0-4B52-AC93-0D33-6B71F90F3A99">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>5110DF2C-3C60-666D-DC04-7EBDAA7B187E</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_logradouro" id="B8E57C5F-2DBB-1C67-D0C1-9CE3280D6C81">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>45067A15-E2E8-33D6-5852-D55C5C756922</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cep" id="B17A3A49-887B-041F-E288-5376BABE34ED">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>95E561A0-36CE-E76D-DADF-3E4BC6E1F3C9</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CAC0C8B-2996-1CD6-20AA-D47FA455C5A0" name="PK_WEDO_END_CORREIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>5E0F326E-3A7B-7ADC-987F-BCD0A5C54104</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ABE06B0-72BA-25CC-0739-282A703DAE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

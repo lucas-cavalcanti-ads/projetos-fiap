@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF4D1429-13F5-64F9-3DEA-0A7632161C71" name="T_SIP_FORNECEDOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:47:33 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORNECEDOR" id="4809338E-E4B2-8E64-9CD0-212F8ED0A246">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:58:23 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ENDERECO" id="EE998DAE-66EA-EE1F-8E8D-DA4D841F17A5">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:56:58 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="8B027BF2-0119-9751-94A7-3A9F0B6D374C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:57:21 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOME" id="A5BD3AC2-5671-5305-94D7-10A4CABF10EB">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:58:06 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0B7F458-7791-40B1-F108-23360FA5277C" name="T_SIP_FORNECEDOR PK">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:58:36 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4809338E-E4B2-8E64-9CD0-212F8ED0A246</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

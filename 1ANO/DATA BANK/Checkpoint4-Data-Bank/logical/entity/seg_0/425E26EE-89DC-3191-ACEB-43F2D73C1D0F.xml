@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="425E26EE-89DC-3191-ACEB-43F2D73C1D0F" name="T_SK_TELEFONE_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:08:25 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_ddi" id="8509DDAA-CA86-F78A-E4A2-BE85DA1F4762">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:10:00 UTC</createdTime>
+<generatorID>66C3AB89-17CB-F259-0F2F-FC461C495F8E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>E3F6FA80-F251-346B-557E-7B7BCBD2EB8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="A91D2E97-51CF-AEB4-D6F2-0FDB9D187522">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:10:00 UTC</createdTime>
+<generatorID>66C3AB89-17CB-F259-0F2F-FC461C495F8E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>8B990676-452A-C58F-0597-7B8D1148181A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="45128B5D-DBB9-4273-E176-AF0E94D65E3E">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:10:00 UTC</createdTime>
+<generatorID>66C3AB89-17CB-F259-0F2F-FC461C495F8E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>BABD8E01-29E0-1178-355E-7101E980A28E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_colaborador" id="0C29CDEE-32F4-B216-119D-29924B968083">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:14:37 UTC</createdTime>
+<generatorID>93667A26-670B-3241-9C1D-D42E1DE7EA0C</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>B1BA9E48-7B1C-3585-3336-048A1837CDF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F275E9A-0CBB-CC8B-D691-9FFE636F165A" name="PK_SK_TELEFONE_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:09:07 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>66C3AB89-17CB-F259-0F2F-FC461C495F8E,93667A26-670B-3241-9C1D-D42E1DE7EA0C</newElementsIDs>
+<usedAttributes>
+<attributeRef>8509DDAA-CA86-F78A-E4A2-BE85DA1F4762</attributeRef>
+<attributeRef>A91D2E97-51CF-AEB4-D6F2-0FDB9D187522</attributeRef>
+<attributeRef>45128B5D-DBB9-4273-E176-AF0E94D65E3E</attributeRef>
+<attributeRef>0C29CDEE-32F4-B216-119D-29924B968083</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

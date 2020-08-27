@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELACAO_TIPO_ENDERECO_COLABORADOR_ENDERECO" directorySegmentName="seg_0" id="D0765504-ACAE-B555-F70B-7A6A3BE10770">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:00:04 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>E9B5F945-FD84-612F-CADA-2265D0170B7A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D1E81C7B-AA0C-17BD-0506-477E8327E684</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E2EF665-028C-EA97-04B2-705AC9E348AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

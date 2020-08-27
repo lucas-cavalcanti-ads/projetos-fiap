@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46386F88-965E-E4C8-93B3-2B8F18D0E86A" name="T_WEDO_TEL_CLIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>6ED2D47C-4007-61FC-9494-723B9FA3AE26</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_telefone" id="FD4FB46D-7F00-2227-2A7A-4A07380234CE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>6BA12AB0-52F3-E695-6073-5ED141D6D760</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="B83693E2-A92C-D550-A47A-C3C20D739251">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>0694F133-9692-F51B-0016-C5D6A7E1BD7D</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1618509A-2EFC-C67E-573A-79BC0F6967DD" referredColumn="B52329C6-5A91-54C7-71A2-EEA7E0603180"/>
+</associations>
+</Column>
+<Column name="cd_ddd" id="070C016E-5079-843E-3F83-FFDB16A21C68">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>7CFEFAB6-9623-1EAF-8B3A-BCD1AF2F836F</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="000F9430-465D-7900-957B-67B2523DDCEA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>F9113757-C5AB-A177-4C5C-4D27EBC26DC6</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_telefone" id="555165AE-0E56-7CEF-588A-5B171E6CCF15">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>69537450-9633-E92A-E5B1-7CD5F85D354B</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D763E2FF-B878-3499-32AB-1CAC7E457A55" name="PK_WEDO_CLI_TEL">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>DEB79196-747A-5FC1-258C-EA9458B1115D</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD4FB46D-7F00-2227-2A7A-4A07380234CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="738D15A9-58AE-006D-A768-AE1FE484B91B" name="FK_WEDO_CLIENTE_TEL">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>5C50169F-1F9D-5A6F-E69A-79EEE42E4952</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B83693E2-A92C-D550-A47A-C3C20D739251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

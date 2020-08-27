@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D62B796-4CF0-1C9A-CFE0-9DE938ACA932" name="T_SK_TELEFONE">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:02:15 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_ddi" id="E3F6FA80-F251-346B-557E-7B7BCBD2EB8E">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:02:58 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="BABD8E01-29E0-1178-355E-7101E980A28E">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:03:47 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="8B990676-452A-C58F-0597-7B8D1148181A">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:04:10 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCEAF847-7C80-7F65-FE2B-68DDECCF2DB9" name="PK_SK_TELEFONE">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 21:03:23 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E3F6FA80-F251-346B-557E-7B7BCBD2EB8E,8B990676-452A-C58F-0597-7B8D1148181A,BABD8E01-29E0-1178-355E-7101E980A28E</newElementsIDs>
+<usedAttributes>
+<attributeRef>E3F6FA80-F251-346B-557E-7B7BCBD2EB8E</attributeRef>
+<attributeRef>8B990676-452A-C58F-0597-7B8D1148181A</attributeRef>
+<attributeRef>BABD8E01-29E0-1178-355E-7101E980A28E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

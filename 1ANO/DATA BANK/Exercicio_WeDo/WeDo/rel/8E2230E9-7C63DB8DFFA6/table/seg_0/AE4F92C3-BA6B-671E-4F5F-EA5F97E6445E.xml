@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE4F92C3-BA6B-671E-4F5F-EA5F97E6445E" name="T_WEDO_LISTA_DESEJO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>D4F34BEC-77B4-7613-5C05-295E9F72EBA5</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_lista_desejo" id="45F6D23B-B858-CBBC-65E1-585B161D4F4F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>18F3015F-51B2-D5EF-10BD-9B7BAED474C2</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="4BE69BEC-35AF-C29C-40C1-5E7C9E1E8B45">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>65C27B98-F577-305D-D5D8-233D2F158F1B</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DBB8F5C-1CDE-ADFC-CF41-67498ED26037" referredColumn="B225B95E-8C90-3B41-2E4B-DCE4187C5BD1"/>
+</associations>
+</Column>
+<Column name="nr_endereco" id="30B96059-1C5D-8780-B3DB-B3960B847D11">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>EC0923EA-D249-1E15-BA4A-1F2F731998E5</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DBB8F5C-1CDE-ADFC-CF41-67498ED26037" referredColumn="F6C87220-85FB-0F0B-C1E6-4D2640082B4E"/>
+</associations>
+</Column>
+<Column name="dt_hr_cadastro" id="671CD405-79D9-CC25-F8D8-AB4B64AB231F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>C6AA5796-722F-85C2-F639-81BDCFB9DA1A</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_total_lista" id="BC879DFE-7F96-9407-C299-CF0A694184B6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>E0EF3F4F-115D-BD1A-6E3A-D4C142012AFD</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_forma_pagto" id="6AC28E29-ABC4-DAA3-A268-04965778D3F1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>82EA752D-F0D1-2F08-0516-6D99FC76C563</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_entrega" id="D98A8C09-6EB5-9AE7-7331-F5B96315C70C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>9B528326-5F4E-BE5D-476B-F76CEB3BCCB4</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C926F331-C2F1-0BC2-9236-C9F58E2DE46E" name="PK_WEDO_LISTA_DESEJO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>9B5A0A0E-CDB6-7DBC-7EAD-833CFB3C1588</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45F6D23B-B858-CBBC-65E1-585B161D4F4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EF328E0-DA8F-9256-E9D4-F3F1C732EA6D" name="T_WEDO_LISTA_DESEJO__IDX">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>53B1DC8D-FAE1-26B8-6B68-66A5583CE1ED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4BE69BEC-35AF-C29C-40C1-5E7C9E1E8B45"/>
+<colUsage columnID="30B96059-1C5D-8780-B3DB-B3960B847D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F786669-DDF6-C0DC-AFB3-D68EF2534C0D" name="FK_WEDO_CLI_END_LIST_DESEJO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>53B1DC8D-FAE1-26B8-6B68-66A5583CE1ED</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE69BEC-35AF-C29C-40C1-5E7C9E1E8B45"/>
+<colUsage columnID="30B96059-1C5D-8780-B3DB-B3960B847D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_WEDO_LISTA_DESEJO_CK_ENTREG" directorySegmentName="seg_0" id="FC776927-1C23-43FA-18A6-E1F670C8624A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:12:47 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<rule><![CDATA[ST_ENTREGA IN ('A ENTREGAR', 'ENTREGUE', 'AUSENTE')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="T_WEDO_LISTA_DESEJO_CK_VLTOT" directorySegmentName="seg_0" id="75866E57-4E40-9E31-E60C-5A68F58FE9DA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:14:13 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<rule><![CDATA[VL_TOTAL_LISTA >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

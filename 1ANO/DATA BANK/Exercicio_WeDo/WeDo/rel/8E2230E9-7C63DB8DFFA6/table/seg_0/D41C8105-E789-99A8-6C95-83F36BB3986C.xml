@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D41C8105-E789-99A8-6C95-83F36BB3986C" name="T_WEDO_CLI_JURIDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>5F8269B3-631C-C596-5A88-F34BB8EE894D</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="6BEF735C-0192-5840-F57B-E44161485D9C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>59D54D58-9701-DE77-43EC-65B21554CB74</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="117DE8C5-1974-6DFB-7F28-2CD77808BFE9" referredColumn="B52329C6-5A91-54C7-71A2-EEA7E0603180"/>
+</associations>
+</Column>
+<Column name="nr_cnpj" id="09AC9DBA-20F3-C6FE-D4D0-63CA9DFFFAA4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>A09D3DC4-6489-3BFC-CF99-1A3CFCE6E78B</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_inscricao_estadual" id="70026652-846A-EAAE-B982-30E141D4EC1F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>18BE972B-4B73-2757-0498-725C8A0DF320</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fundacao" id="DA303EE4-7B81-EEE7-97A6-9AA21D732BA0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>E5A733F2-FF58-A60C-6362-B329F3EF2C05</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD0C60E7-BEB9-5FF7-57CB-CF189D82E858" name="PK_WEDO_CLI_JURIDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>CA1B7F5A-15E6-719A-F9F6-2754A37F3629</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BEF735C-0192-5840-F57B-E44161485D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAA20B79-CACF-D872-FAF2-116B33369B35" name="UN_WEDO_NR_CNPJ">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>8EC3DBD0-BCB6-8B48-8662-A2CC38B40A86</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09AC9DBA-20F3-C6FE-D4D0-63CA9DFFFAA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C1076FE-9EF5-9661-1373-B7EF080BEDDE" name="UN_WEDO_NR_INSC_EST">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>3CA806F7-D32A-DD55-D37E-38C88432393F</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70026652-846A-EAAE-B982-30E141D4EC1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEBACD10-CE88-ACBB-6F55-E0BF58B93950" name="FK_WEDO_CLI_JURIDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>28E9D3DD-D267-52E9-06D2-26094C8C53C8</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BEF735C-0192-5840-F57B-E44161485D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

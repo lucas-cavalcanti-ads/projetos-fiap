@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE &gt; NOTA" directorySegmentName="seg_0" id="21B41E84-AA82-88D5-24B7-02A403D59CA3">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 01:08:44 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<sourcePk>4CC854EC-0712-E61B-F102-80D11490D1A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F643D07-FCCE-44C8-CB7E-C953C1C267BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>29C7B807-3B62-B096-53EC-BF6DACD76185</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

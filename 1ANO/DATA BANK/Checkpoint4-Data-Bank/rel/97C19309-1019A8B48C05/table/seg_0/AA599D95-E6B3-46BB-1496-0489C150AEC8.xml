@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA599D95-E6B3-46BB-1496-0489C150AEC8" name="T_SK_TELEFONE_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>425E26EE-89DC-3191-ACEB-43F2D73C1D0F</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_ddi" id="9B97AC44-9798-5571-A926-CF7E6EF75389">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>8509DDAA-CA86-F78A-E4A2-BE85DA1F4762</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09B531A5-586D-3F25-A852-1E60039FDE68" referredColumn="5BCBC364-7D21-261E-1124-396EB0E8BCED"/>
+</associations>
+</Column>
+<Column name="nr_telefone" id="182C809C-BE58-8799-D14B-D42192592484">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>A91D2E97-51CF-AEB4-D6F2-0FDB9D187522</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09B531A5-586D-3F25-A852-1E60039FDE68" referredColumn="B5E5C8C9-355F-CB14-F2E8-5DC6AB5D3549"/>
+</associations>
+</Column>
+<Column name="nr_ddd" id="86F006FD-09E4-DAD6-C0D0-B5EAABA3CA00">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>45128B5D-DBB9-4273-E176-AF0E94D65E3E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09B531A5-586D-3F25-A852-1E60039FDE68" referredColumn="639C2953-C439-8FCD-EA60-8613138D80A4"/>
+</associations>
+</Column>
+<Column name="id_colaborador" id="90E216B0-7264-AF21-C5C7-E94E09E60D84">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>0C29CDEE-32F4-B216-119D-29924B968083</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93792064-3E29-DD24-A5D7-590B293E04DE" referredColumn="D58E4F5E-1E5B-A40F-43EE-7EBD453500DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="079E9C53-38BF-233B-43E2-A106BFF4A7C2" name="PK_SK_TELEFONE_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>6F275E9A-0CBB-CC8B-D691-9FFE636F165A</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B97AC44-9798-5571-A926-CF7E6EF75389"/>
+<colUsage columnID="182C809C-BE58-8799-D14B-D42192592484"/>
+<colUsage columnID="86F006FD-09E4-DAD6-C0D0-B5EAABA3CA00"/>
+<colUsage columnID="90E216B0-7264-AF21-C5C7-E94E09E60D84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BE4840D-4BB8-99A6-244D-94FF871A2CE3" name="RELACAO_TELEFONE_TELEFONE_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>66C3AB89-17CB-F259-0F2F-FC461C495F8E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B97AC44-9798-5571-A926-CF7E6EF75389"/>
+<colUsage columnID="182C809C-BE58-8799-D14B-D42192592484"/>
+<colUsage columnID="86F006FD-09E4-DAD6-C0D0-B5EAABA3CA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6CFA1DA-4ACD-6C20-2771-6E6A2F907455" name="RELACAO_COLABORADOR_TELEFONE_COLABORADOR">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>93667A26-670B-3241-9C1D-D42E1DE7EA0C</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90E216B0-7264-AF21-C5C7-E94E09E60D84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

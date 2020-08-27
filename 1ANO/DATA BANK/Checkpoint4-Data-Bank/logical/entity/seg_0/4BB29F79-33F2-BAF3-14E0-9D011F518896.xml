@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BB29F79-33F2-BAF3-14E0-9D011F518896" name="T_SK_ESTADO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 19:55:55 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estado" id="A8684594-2F22-8858-0309-1F38F83F6D51">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 19:56:12 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="DF436FE7-253C-CEE2-DE1F-492030367BE6">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 19:56:48 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="26E130B9-A5D2-04D6-3FB6-7C64EBBFAAA4">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 19:57:33 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29AE9EC1-6933-0030-451B-5139FA6AEB61" name="PK_SK_ESTADO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 19:56:44 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A8684594-2F22-8858-0309-1F38F83F6D51</newElementsIDs>
+<usedAttributes>
+<attributeRef>A8684594-2F22-8858-0309-1F38F83F6D51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D15E1A0E-B003-F011-A137-4AC8F59D1CA3" containerWithKeyObject="1B55879F-F215-35FE-07C1-96723FF78829" localFKIndex="80C323B4-83F4-8DB7-18F2-AE42FD5E0FF8" name="RELACAO_LOUGRADOURO_ENDERECO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>947CB8DD-1085-91E1-B0FC-F76E4D4C533E</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<referredTableLongName>T_SK_TIPO_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AAC352C-764B-91CB-ECDF-8F904E0A772D</referredTableID>
+<keyObject>6EF121B0-3A52-76A7-D446-EF098708AB6C</keyObject>
+<referredKeyID>6EF121B0-3A52-76A7-D446-EF098708AB6C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_logradouro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

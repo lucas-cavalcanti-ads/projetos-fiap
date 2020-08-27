@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5459D9C2-127A-0398-464B-DE49165C6CAA" name="T_SK_COLABORADOR_PROJETO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:30:32 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_colaborador" id="2E50C13C-DBF6-11CF-8345-E23B2CE1CD82">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:30:56 UTC</createdTime>
+<generatorID>D2B5A4FB-73D1-788F-DF6F-A41CF1D6FB00</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>B1BA9E48-7B1C-3585-3336-048A1837CDF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_projeto" id="DE8B6CBD-3D8E-FDA4-F317-A39965725B49">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:31:01 UTC</createdTime>
+<generatorID>4F4EF9BF-B47E-879C-CDA5-BF9D085B495F</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>AF018CC0-D134-A37E-167D-19B515FEA1B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26233A97-FE27-F0CB-C3E5-601D24B8A671" name="PK_SK_COLABORADOR_PROJETO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:30:56 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D2B5A4FB-73D1-788F-DF6F-A41CF1D6FB00,4F4EF9BF-B47E-879C-CDA5-BF9D085B495F</newElementsIDs>
+<usedAttributes>
+<attributeRef>2E50C13C-DBF6-11CF-8345-E23B2CE1CD82</attributeRef>
+<attributeRef>DE8B6CBD-3D8E-FDA4-F317-A39965725B49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

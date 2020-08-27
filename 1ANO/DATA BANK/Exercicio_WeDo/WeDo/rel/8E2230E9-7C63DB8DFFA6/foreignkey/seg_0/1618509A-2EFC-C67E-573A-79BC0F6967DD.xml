@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1618509A-2EFC-C67E-573A-79BC0F6967DD" containerWithKeyObject="46386F88-965E-E4C8-93B3-2B8F18D0E86A" localFKIndex="738D15A9-58AE-006D-A768-AE1FE484B91B" name="FK_WEDO_CLIENTE_TEL">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-13 03:06:30 UTC</createdTime>
+<generatorID>5C50169F-1F9D-5A6F-E69A-79EEE42E4952</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<referredTableLongName>T_WEDO_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>873EE74B-7D1D-09D5-AE21-CF75980FD755</referredTableID>
+<keyObject>9B1F7356-CD0A-3D11-9DA5-0CAFB5AD2EBC</keyObject>
+<referredKeyID>9B1F7356-CD0A-3D11-9DA5-0CAFB5AD2EBC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

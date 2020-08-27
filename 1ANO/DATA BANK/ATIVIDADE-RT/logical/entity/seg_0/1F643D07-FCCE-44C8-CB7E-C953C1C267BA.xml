@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F643D07-FCCE-44C8-CB7E-C953C1C267BA" name="T_RT_CLIENTE">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:49:06 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="812E5E33-F069-A564-6ECD-1227DF174DF8">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:54:22 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_NOME" id="27F6BF95-55C9-8D44-D69E-7DEE91C013E1">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:50:10 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ENDERECO" id="F4AE3F9B-8E53-52FE-09D0-6CC608DE77A8">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:51:30 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="C51A0739-CEAB-7E6F-25CF-5DDB498E9E6C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:52:02 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MUNICIPIO" id="13B49E39-C28D-FFE2-DE4F-88761D84060B">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:52:14 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="535EE1ED-9DD3-E04B-81D7-11A7A65D2756">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:52:30 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="829F454B-69C4-6615-ADD8-E8F742C9054D">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:53:08 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_INSCRICAO_MUNICIPAL" id="F06320C4-532E-20A7-F131-D0F3FC43B3D1">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:53:36 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_INSCRICAO_ESTADUAL" id="38DA3D30-4DE7-2B97-4FB6-8CE96157CF74">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:54:07 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="4591C61E-1CEA-26C7-2CBC-6AAF43F8ABFF">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:56:28 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CC854EC-0712-E61B-F102-80D11490D1A5" name="T_SIP_CLIENTE PK">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:56:25 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>812E5E33-F069-A564-6ECD-1227DF174DF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELACAO_COLABORADOR_TELEFONE_COLABORADOR" directorySegmentName="seg_0" id="93667A26-670B-3241-9C1D-D42E1DE7EA0C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:14:37 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>33AF223C-D63D-AB62-CCB5-ACF05B6D1830</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CFD707EE-53A6-9B39-D5CA-D09C905ED431</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>425E26EE-89DC-3191-ACEB-43F2D73C1D0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

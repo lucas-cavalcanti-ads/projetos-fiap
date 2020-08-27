@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_WEDO_CLI_END_LIST_DESEJO" directorySegmentName="seg_0" id="D1C0CEEA-DB1B-88C8-EEC1-49704701DD51">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-21 15:32:08 UTC</createdTime>
+<generatorID>2DBB8F5C-1CDE-ADFC-CF41-67498ED26037</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="8E2230E9-276B-5582-5400-7C63DB8DFFA6" value="true"/>
+</engineerTo>
+<sourcePk>3445D06C-CFAC-900B-2926-C879AAF784A7</sourcePk>
+<dominantRole>921AB494-9CD1-6B35-C1D0-A3F74053A659</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>921AB494-9CD1-6B35-C1D0-A3F74053A659</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>35AFA43C-4FDA-C478-2D2C-7AC26B4E28A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

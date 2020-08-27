@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CED1B69-B5D1-D0D8-8B17-B1E62DA0D41A" name="T_SIP_PRODUTO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:49:28 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRODUTO" id="19E28678-AF56-2622-C7E7-A9559217933D">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:59:59 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FORNECEDOR" id="D27679C5-C76A-7C55-79BC-DFBBFDA597D3">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 01:09:05 UTC</createdTime>
+<generatorID>8772262C-9F4B-846E-2F7C-1B888B3EB116</generatorID>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<referedAttribute>4809338E-E4B2-8E64-9CD0-212F8ED0A246</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_PRECO_UNITARIO" id="6E4FBB30-9FB3-73AB-CCB6-8AC33DFF3A15">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:58:44 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="F7A70FAC-80E1-6EB1-47CF-38A50BC9B1C1">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:59:06 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_QUANTIDADE" id="59778413-7272-A6BF-7398-88855F4C0B12">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:59:23 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_VALOR_ITEM" id="B78EC14D-2035-99C2-7FB1-87914AFC022A">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 00:59:41 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC53EC95-7842-FB4C-842E-D08D94EAB1BE" name="T_SIP_PRODUTO PK">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-04-28 01:00:13 UTC</createdTime>
+<ownerDesignName>ATIVIDADE-RT-LGPD</ownerDesignName>
+<engineerTo>
+<item key="B4B090A7-7F57-8113-AEBA-AD6A079E1E9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19E28678-AF56-2622-C7E7-A9559217933D</attributeRef>
+<attributeRef>D27679C5-C76A-7C55-79BC-DFBBFDA597D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

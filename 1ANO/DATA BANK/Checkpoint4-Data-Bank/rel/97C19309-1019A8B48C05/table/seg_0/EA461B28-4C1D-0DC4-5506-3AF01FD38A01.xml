@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA461B28-4C1D-0DC4-5506-3AF01FD38A01" name="T_SK_COLABORADOR_PROJETO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>5459D9C2-127A-0398-464B-DE49165C6CAA</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_colaborador" id="1FDE01E7-CD96-90FF-B838-DAD72F2D3104">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>2E50C13C-DBF6-11CF-8345-E23B2CE1CD82</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1664C684-5B4A-C40D-9FDA-F91DF14406B0" referredColumn="D58E4F5E-1E5B-A40F-43EE-7EBD453500DE"/>
+</associations>
+</Column>
+<Column name="cd_projeto" id="12073B03-CD1E-AC74-0483-7F957039AF95">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>DE8B6CBD-3D8E-FDA4-F317-A39965725B49</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AACDC833-F989-8751-03DB-97B0C8C20BF9" referredColumn="123B5D79-0FEC-33ED-8154-73A33152E709"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9620F92D-E65C-A4DD-1B09-BA7D8555A4B1" name="PK_SK_COLABORADOR_PROJETO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>26233A97-FE27-F0CB-C3E5-601D24B8A671</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FDE01E7-CD96-90FF-B838-DAD72F2D3104"/>
+<colUsage columnID="12073B03-CD1E-AC74-0483-7F957039AF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48B7C690-8FD1-DB17-8473-08DF90F17291" name="RELACAO_COLABORADOR_COLABORADOR_PROJETO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>D2B5A4FB-73D1-788F-DF6F-A41CF1D6FB00</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FDE01E7-CD96-90FF-B838-DAD72F2D3104"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="612E672A-FD64-105C-5BCF-7E0789010480" name="RELACAO_PROJETO_COLABORADOR_PROJETO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>4F4EF9BF-B47E-879C-CDA5-BF9D085B495F</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12073B03-CD1E-AC74-0483-7F957039AF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

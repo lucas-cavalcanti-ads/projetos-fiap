@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELACAO_ESTADO_CIDADE" directorySegmentName="seg_0" id="14F2DB3B-487C-EE13-3835-D9A3C4EC2468">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 20:56:00 UTC</createdTime>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>29AE9EC1-6933-0030-451B-5139FA6AEB61</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4BB29F79-33F2-BAF3-14E0-9D011F518896</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE7D478F-4583-E40C-6F53-FBA1804B7C2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B8A93A7-F08E-A48D-959B-49F2BC521F5B" name="T_SK_COLABORADOR_ENDERECO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>1E2EF665-028C-EA97-04B2-705AC9E348AD</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="AEE1D153-2B2C-6648-2DE0-AC781712609C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>4A0FEBBE-B186-6B9D-3D09-D84E353DAE71</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BA9111B-7048-F498-BA72-8485B0E74E21" referredColumn="E0E8812E-17D0-BEBD-2C36-8473225C81AF"/>
+</associations>
+</Column>
+<Column name="cd_tipo_endereco" id="8AF268E4-1567-C763-56E6-B76423DB17AB">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>81512848-79D2-4A16-1857-ADE98F3C6CCF</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96E24E56-E15B-5629-C9AD-5CBC499C2C2C" referredColumn="3A2062A0-683E-F30E-1EAC-90A93A1E0A40"/>
+</associations>
+</Column>
+<Column name="id_colaborador" id="22D823B9-C7AB-9BCE-786B-047D0C97544C">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>78E0AD3E-73E7-1255-9456-326EFAD3A857</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7851D42-CDAB-8851-CF31-72FD81E9CF96" referredColumn="D58E4F5E-1E5B-A40F-43EE-7EBD453500DE"/>
+</associations>
+</Column>
+<Column name="ds_complemento" id="D4E35040-153A-75F3-8259-EE36FDA27004">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>308C946F-33A5-2158-6B6F-E7390963F20A</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_lougradouro" id="C820BA31-6B27-CF6B-0B55-7CFED926D38F">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>83D51120-8BF4-A2A3-FD70-DDF43DD1FFD6</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97CC194A-505F-37EC-961F-18556C193567" name="PK_SK_COLABORADOR_ENDERECO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>BF0E52D4-E00E-A07C-705E-C4825ED7B427</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE1D153-2B2C-6648-2DE0-AC781712609C"/>
+<colUsage columnID="8AF268E4-1567-C763-56E6-B76423DB17AB"/>
+<colUsage columnID="22D823B9-C7AB-9BCE-786B-047D0C97544C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0435698F-06B5-CFB4-686F-96F2498B9E03" name="RELACAO_ENDERECO_COLABORADOR_ENDERECO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:33 UTC</createdTime>
+<generatorID>14CFD49B-19B6-C615-88A1-2314A23F22D4</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE1D153-2B2C-6648-2DE0-AC781712609C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E279097-4E00-343D-0770-A7B37CAAEB26" name="RELACAO_TIPO_ENDERECO_COLABORADOR_ENDERECO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>D0765504-ACAE-B555-F70B-7A6A3BE10770</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AF268E4-1567-C763-56E6-B76423DB17AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F7D45FF-966B-1ACB-469B-B1F28D837D00" name="RELACAO_COLABORADOR_COLABORADOR_ENDERECO">
+<createdBy>lucasdepaula</createdBy>
+<createdTime>2020-08-23 23:43:34 UTC</createdTime>
+<generatorID>EB7C3B84-8174-4CC0-AD0C-DAC66B1A366A</generatorID>
+<ownerDesignName>CHECKPOINT1_SAKSPILDAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22D823B9-C7AB-9BCE-786B-047D0C97544C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
